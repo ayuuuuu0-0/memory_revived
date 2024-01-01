@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "266191834819",
+    "project_id": "memoryrevived",
+    "storage_bucket": "memoryrevived.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266191834819:android:3864266721f45a92a11c76",
+        "android_client_info": {
+          "package_name": "com.example.memory_revived"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXyYFzupxlLmL4mKRgAQrUoyk566avV00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,170 @@
+name: memory_revived
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.5
+  numeral: ^2.0.1
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.6.0
+  cloud_firestore: ^4.7.0
+  timeago: ^3.4.0
+  intl: ^0.18.1
+  image_picker: ^0.8.7+5
+  image_cropper: ^3.0.3
+  fluttertoast: ^8.2.1
+  firebase_storage: ^11.2.0
+  flutter_image_slider: ^0.0.2
+  geolocator: ^9.0.2
+  geocoding: ^2.1.0
+  map_launcher: ^2.5.0+1
+  uuid: ^3.0.7
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/7136914.jpg"
+
+# The following section is specific to Flutter packages.
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/7136914.jpg
+    - assets/images/6195365.jpg
+    - assets/images/main_top.png
+    - assets/images/main_bottom.png
+    - assets/images/signup_top.png
+    - assets/images/login.png
+    - assets/images/google.png
+    - assets/images/facebook.png
+    - assets/images/notification_active.png
+    - assets/images/profileicon1.png
+    - assets/images/profileicon2.png
+    - assets/images/Workout1.png
+    - assets/images/Workout2.png
+    - assets/images/Workout3.png
+    - assets/images/black_btn.png
+    - assets/images/sub_menu.png
+    - assets/images/more_btn.png
+    - assets/images/home_white.png
+    - assets/images/home_black.png
+    - assets/images/hash_white.png
+    - assets/images/hash_black.png
+    - assets/images/help_white.png
+    - assets/images/help_black.png
+    - assets/images/profile_white.png
+    - assets/images/profile_black.png
+    - assets/images/workout.png
+    - assets/images/travel.png
+    - assets/images/meditation.png
+    - assets/images/food.png
+    - assets/images/rship.jpg
+    - assets/images/scenery.jpg
+    - assets/images/psychological.jpg
+    - assets/images/pyschology2.png
+    - assets/images/food_Tab.png
+    - assets/images/Chicken.png
+    - assets/images/Burger.png
+    - assets/images/Pasta.png
+    - assets/images/pizza.png
+    - assets/images/butter_chicken.jpg
+    - assets/images/malai.webp
+    - assets/images/workout_discover.jpg
+    - assets/images/Cardio.png
+    - assets/images/Flexibility.png
+    - assets/images/Strength.png
+    - assets/images/Core.png
+    - assets/images/7days.gif
+    - assets/images/medi.jpg
+    - assets/images/taichi.gif
+    - assets/images/medi1.png
+    - assets/images/medi2.png
+    - assets/images/medi3.png
+    - assets/images/medi4.png
+    - assets/images/t.png
+    - assets/images/t1.png
+    - assets/images/t2.png
+    - assets/images/t3.png
+    - assets/images/t4.png
+    - assets/images/t5.webp
+    - assets/images/t6.jpg
+    - assets/icons/twitter-analytics.svg
+    - assets/icons/twitter-like-outline.svg
+    - assets/icons/twitter-reply-outline.svg
+    - assets/icons/twitter-retweet.svg
+    - assets/icons/twitter-verified.svg
+    - assets/images/emergency.png
+    - assets/images/doc.png
+    - assets/images/lab.png
+    - assets/images/clinic.png
+    - assets/images/pharmacy.png
+    - assets/images/insurance.png
+    - assets/images/facilities.png
+    - assets/images/doc2.webp
+    - assets/images/to-do.jpg
+  #   - images/a_dot_ham.jpeg
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+
+    - family: Poppins SemiBold
+      fonts:
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+
+    - family: Poppins Regular
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
